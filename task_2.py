@@ -1,7 +1,6 @@
 class Tester:
     def __init__(self, name):
         self.name = name
-        # Строку deadline = True просто удаляем, она здесь бесполезна
 
     def work_hard(self, deadline=True):
         if deadline:
